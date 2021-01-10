@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+    background-color: rgba(0,0,0,.03);
+}
+.login{
+    margin-top: 8vh;
+}
+div .card-header{
+    background-color: #00acee;
+    color: #fff;
+}
+div .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div .submitButton{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 10px;
+}
+div .hrstyled{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+div .hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+}
+div .hr-text:before {
+    content: '';
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+div .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    background-color: #fcfcfa;
+  }
+div .Icons{
+    display: block;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 30px;
+}
+
+div .googleIcon{
+    color:  #db4a39;
+}
+div .fbIcon{
+    color:  #3b5998;
+}
+div .twitterIcon{
+    color:  #00acee;
+}
+div .login-button {
+    padding-right: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+div .checkbox{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+div .forget{
+    float:right;
+    font-size:15px;
+}
